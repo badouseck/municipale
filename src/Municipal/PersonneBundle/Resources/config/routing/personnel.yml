@@ -1,0 +1,30 @@
+personnel:
+    path:     /
+    defaults: { _controller: "MunicipalPersonneBundle:Personnel:index" }
+
+personnel_show:
+    path:     /{id}/show
+    defaults: { _controller: "MunicipalPersonneBundle:Personnel:show" }
+
+personnel_new:
+    path:     /new
+    defaults: { _controller: "MunicipalPersonneBundle:Personnel:new" }
+
+personnel_create:
+    path:     /create
+    defaults: { _controller: "MunicipalPersonneBundle:Personnel:create" }
+    requirements: { _method: post }
+
+personnel_edit:
+    path:     /{id}/edit
+    defaults: { _controller: "MunicipalPersonneBundle:Personnel:edit" }
+
+personnel_update:
+    path:     /{id}/update
+    defaults: { _controller: "MunicipalPersonneBundle:Personnel:update" }
+    requirements: { _method: post|put }
+
+personnel_delete:
+    path:     /{id}/delete
+    defaults: { _controller: "MunicipalPersonneBundle:Personnel:delete" }
+    requirements: { _method: post|delete }

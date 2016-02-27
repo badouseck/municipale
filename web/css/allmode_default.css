@@ -1,0 +1,374 @@
+/*
+
+ * ================================================================
+
+   RAXO All-mode PRO - Template CSS
+
+ * ----------------------------------------------------------------
+
+ * @package		Joomla! 1.5.x
+
+ * @subpackage	RAXO All-mode PRO
+
+ * @copyright	Copyright (C) 2009-2010 RAXO Group
+
+ * @license		GNU General Public License v2.0
+
+				http://www.gnu.org/licenses/gpl-2.0.html
+
+ * @link		http://raxo.org
+
+ * ================================================================
+
+*/
+
+h4.allmode_title a{
+	cursor:default !important;}
+em{
+	font-style:normal;}
+	em strong{
+		font-weight:normal; }
+
+
+/* ----- RESET Styles ----- */
+
+.allmode_default .allmode_name, .allmode_default .allmode_showall,
+
+.allmode_default .allmode_topitem, .allmode_default .allmode_item,
+
+.allmode_default .allmode_title, .allmode_default img {
+
+	margin: 0; padding: 0;
+
+	background: none; border: 0 none;
+
+}
+
+
+
+.allmode_default .allmode_readmore a {															/* LINKS */
+
+	/*color: #b00000*/	
+	color:#0da234 !important;
+	font-style:normal !important;
+	text-decoration: underline; 
+	background: url(http://www.ms3d.eu/templates/template_ms3d/images/img_accueil/picto_fleche_verte.png) 0px 4px no-repeat;
+	}
+
+
+ 
+
+
+/* ----- MODULE BOX Styles ----- */
+
+.allmode_default .allmode_name {												/* Module Block NAME */
+
+	margin: 5px 8px 10px;
+
+	font-size: 14px; font-weight: bold;
+
+	color: #373737;
+
+	border-bottom: 1px dashed #dddddd;
+}
+
+.allmode_default .allmode_name a {
+
+	font-weight: bold;
+
+	text-decoration: none;
+
+}
+
+.allmode_default .allmode_showall {												/* "Show All" TEXT */
+
+	margin: -4px 12px 0 0;
+
+	text-align: right !important;
+
+}
+
+
+
+
+
+/* ----- TOP ITEMS Styles ----- */
+
+.allmode_default .allmode_topbox {												/* TOP Items DIV */
+
+	margin: 0 8px 16px;
+
+/*	width: 400px;*/
+
+}
+
+.allmode_default .allmode_topitem {												/* TOP Item DIV */
+
+	margin: 8px 0 0; padding-bottom: 6px;
+
+	overflow: hidden;
+
+	border-bottom: 1px dashed #dddddd;
+
+}
+
+.allmode_default .allmode_topitem .allmode_img {								/* TOP Item IMAGE */
+
+	/*float: left;
+
+	margin: 2px 16px 8px 0; padding: 3px;
+
+	border: 1px solid #8e8c8c;
+
+	background-color: #f6f5f5;*/
+
+}
+
+.allmode_default .allmode_topitem .allmode_title {								/* TOP Item TITLE */
+
+	margin: 0 0 3px 0;
+
+	font: bold 17px/21px "Times New Roman",Times,serif;
+
+}
+
+.allmode_default .allmode_topitem .allmode_title a {
+
+	font-weight: bold;
+
+}
+
+.allmode_default .allmode_topitem .allmode_text {								/* TOP Item TEXT */
+
+	font: normal 13px/20px "Trebuchet MS",Arial,sans-serif;
+	text-align:justify;
+	color: #666666;
+
+}
+
+.allmode_default .allmode_topitem .allmode_readmore {							/* TOP Item READ MORE */
+
+	float: right;
+
+	margin-right: 4px;
+
+	font: normal 11px/21px Helvetica,Arial,sans-serif;
+
+	text-align: right;
+	
+	background: url(http://www.ms3d.eu/templates/template_ms3d/images/img_accueil/picto_fleche_verte.png) 205px 4px no-repeat;
+}
+
+
+
+
+
+/* ----- TOP FIELDS Styles ----- */
+
+.allmode_default .allmode_topitem .allmode_details {							/* TOP Item Details DIV */
+
+	margin-bottom: 3px;
+
+	font-size: 12px; line-height: 14px;
+
+	color: #525252;
+
+}
+
+.allmode_default .allmode_topitem .allmode_date {								/* TOP Item DATE */
+
+	padding: 0 10px 0 15px;
+
+	background: url(icons.png) no-repeat 0 3px;
+
+}
+
+.allmode_default .allmode_topitem .allmode_hits {								/* TOP Item HITS */
+
+	padding: 0 10px 0 15px;
+
+	background: url(icons.png) no-repeat 0 -29px;
+
+}
+
+.allmode_default .allmode_topitem .allmode_comments {							/* TOP Item COMMENTS */
+
+	padding: 0 10px 0 15px;
+
+	background: url(icons.png) no-repeat 0 -60px;
+
+}
+
+
+
+.allmode_default .allmode_topitem .allmode_info {								/* TOP Item Info DIV */
+
+	margin-top: -4px; padding-bottom: 2px;
+
+	font-size: 11px; line-height: 17px;
+
+	font-style: italic;
+
+	color: #b4b4b4;
+
+}
+
+.allmode_default .allmode_topitem .allmode_section,
+
+.allmode_default .allmode_topitem .allmode_category,
+
+.allmode_default .allmode_topitem .allmode_author {								/* TOP Item SECTION, CATEGORY, AUTHOR */
+
+	padding-right: 5px;
+
+	font-style: normal;
+
+	color: #808080;
+
+}
+
+
+
+
+
+/* ----- ITEMS Styles ----- */
+
+.allmode_default .allmode_itemsbox {											/* Items DIV */
+
+	margin: 0 8px 8px;
+
+/*	width: 400px;*/
+
+}
+
+.allmode_default .allmode_item {												/* Item DIV */
+
+	margin: 8px 0 0; padding-bottom: 6px;
+
+	overflow: hidden;
+
+	border-bottom: 1px dashed #dddddd;
+
+}
+
+.allmode_default .allmode_item .allmode_img {									/* Item IMAGE */
+
+	/*float: left;
+
+	margin: 2px 16px 8px 0; padding: 2px;
+
+	border: 1px solid #8e8c8c;
+
+	background-color: #f6f5f5;*/
+	margin-bottom:7px;
+
+}
+
+.allmode_default .allmode_item .allmode_title {									/* Item TITLE */
+
+	margin: 0 0 3px 0;
+
+	font: bold 14px/17px "Times New Roman",Times,serif;
+
+}
+
+.allmode_default .allmode_item .allmode_title a {
+
+	font-weight: bold;
+
+}
+
+.allmode_default .allmode_item .allmode_text {									/* Item TEXT */
+
+	font: normal 12px/17px Helvetica,Arial,sans-serif;
+
+	color: #666666;
+	text-align:justify;
+
+}
+
+.allmode_default .allmode_item .allmode_readmore {								/* Item READ MORE */
+
+	float: right;
+
+	margin-right: 4px;
+
+	font-size: 11px;
+
+	text-align: right;
+
+}
+
+
+
+
+
+/* ----- FIELDS Styles ----- */
+
+.allmode_default .allmode_item .allmode_details {								/* Item Details DIV */
+
+	margin-bottom: 2px;
+
+	font-size: 11px; line-height: 13px;
+
+	color: #525252;
+
+}
+
+.allmode_default .allmode_item .allmode_date {									/* Item DATE */
+
+	padding: 0 10px 0 0px;
+
+	/*background: url(icons.png) no-repeat 0 2px;*/
+
+}
+
+.allmode_default .allmode_item .allmode_hits {									/* Item HITS */
+
+	padding: 0 10px 0 15px;
+
+	background: url(icons.png) no-repeat 0 -30px;
+
+}
+
+.allmode_default .allmode_item .allmode_comments {								/* Item COMMENTS */
+
+	padding: 0 10px 0 15px;
+
+	background: url(icons.png) no-repeat 0 -61px;
+
+}
+
+
+
+.allmode_default .allmode_item .allmode_info {									/* Item Info DIV */
+
+	margin-top: -4px; padding-bottom: 2px;
+
+	font-size: 10px; line-height: 16px;
+
+	font-style: italic;
+
+	color: #b4b4b4;
+
+}
+
+.allmode_default .allmode_item .allmode_section,
+
+.allmode_default .allmode_item .allmode_category,
+
+.allmode_default .allmode_item .allmode_author {								/* Item SECTION, CATEGORY, AUTHOR */
+
+	padding-right: 5px;
+ 
+	font-style: normal;
+
+	color: #808080;
+
+}
+
+div.mod_actu_roxo div.allmode_item span.allmode_readmore a{
+	display:block;
+	color:#0da234;
+	padding-left:10px;
+	background: url(http://www.ms3d.eu/templates/template_ms3d/images/img_accueil/picto_fleche_verte.png) 0px 5px no-repeat;}

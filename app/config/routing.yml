@@ -1,0 +1,4 @@
+municipal_personne:
+    resource: "@MunicipalPersonneBundle/Resources/config/routing.yml"
+    prefix:   /
+

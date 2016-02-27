@@ -1,0 +1,7 @@
+municipal_personne_personnel:
+    resource: "@MunicipalPersonneBundle/Resources/config/routing/personnel.yml"
+    prefix:   /personnel
+
+municipal_personne_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: MunicipalPersonneBundle:Default:index }

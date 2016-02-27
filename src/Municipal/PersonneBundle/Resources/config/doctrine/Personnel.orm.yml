@@ -1,0 +1,22 @@
+Municipal\PersonneBundle\Entity\Personnel:
+    type: entity
+    table: null
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        nom:
+            type: string
+            length: '40'
+        prenom:
+            type: string
+            length: '40'
+        dateNaissance:
+            type: date
+        lieuNaissance:
+            type: string
+            length: '50'
+    lifecycleCallbacks: {  }

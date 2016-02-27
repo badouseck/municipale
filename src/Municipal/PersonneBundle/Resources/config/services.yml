@@ -1,0 +1,4 @@
+services:
+#    municipal_personne.example:
+#        class: Municipal\PersonneBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]
